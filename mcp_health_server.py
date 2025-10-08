@@ -121,7 +121,7 @@ def get_manifest():
     return {
         "schema_version": "v1",
         "name_for_human": "MCP Health Server",
-        "name_for_model": "mcp_health_data",
+        "name_for_model": "HealthDataRecords",
         "description_for_model": "Provides health, diagnosis, and treatment data for a user.",
         "api": {
             "type": "openapi",
