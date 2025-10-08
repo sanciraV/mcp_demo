@@ -21,9 +21,7 @@ health_data = {
     "hrs_sleep": 7,
     "fitness_goals": "maintain weight, improve endurance",
     "medical_notes": "Patient shows good cardiovascular fitness.",
-    "recorded_date": str(date.today()),
-    "name": "Vlad",
-    "patient_id": "w45g435g65h"
+    "recorded_date": str(date.today())
 }
 
 # Dummy Diagnosis Data
@@ -135,4 +133,8 @@ def get_manifest():
         "contact_email": "support@example.com",
         "legal_info_url": "https://mcp-demo-yei4.onrender.com/legal"
     }
+
+@app.get("/openapi.json")
+def get_openapi():
+    return app.openapi()
 
