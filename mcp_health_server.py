@@ -22,6 +22,8 @@ health_data = {
     "fitness_goals": "maintain weight, improve endurance",
     "medical_notes": "Patient shows good cardiovascular fitness.",
     "recorded_date": str(date.today())
+    "name": "Vlad"
+    "patient_id": "w45g435g65h"
 }
 
 # Dummy Diagnosis Data
