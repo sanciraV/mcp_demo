@@ -124,13 +124,13 @@ def get_manifest():
         "description_for_model": "Provides health, diagnosis, and treatment data for a user.",
         "api": {
             "type": "openapi",
-            "url": "https://your-domain.onrender.com/openapi.json"
+            "url": "https://mcp-demo-yei4.onrender.com/openapi.json"
         },
         "auth": {
             "type": "none"
         },
-        "logo_url": "https://your-domain.onrender.com/static/logo.png",
+        "logo_url": "https://mcp-demo-yei4.onrender.com/static/logo.png",
         "contact_email": "support@example.com",
-        "legal_info_url": "https://your-domain.onrender.com/legal"
+        "legal_info_url": "https://mcp-demo-yei4.onrender.com/legal"
     }
 
