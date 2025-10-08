@@ -21,7 +21,8 @@ health_data = {
     "hrs_sleep": 7,
     "fitness_goals": "maintain weight, improve endurance",
     "medical_notes": "Patient shows good cardiovascular fitness.",
-    "recorded_date": str(date.today())
+    "name": "Vlad",
+    "patient_id": "12345"
 }
 
 # Dummy Diagnosis Data
