@@ -114,3 +114,23 @@ def get_diagnosis_data():
 @app.get("/api/treatments")
 def get_treatments_data():
     return {"treatments": treatments_data}
+
+@app.get("/.well-known/ai-plugin.json")
+def get_manifest():
+    return {
+        "schema_version": "v1",
+        "name_for_human": "MCP Health Server",
+        "name_for_model": "mcp_health_data",
+        "description_for_model": "Provides health, diagnosis, and treatment data for a user.",
+        "api": {
+            "type": "openapi",
+            "url": "https://your-domain.onrender.com/openapi.json"
+        },
+        "auth": {
+            "type": "none"
+        },
+        "logo_url": "https://your-domain.onrender.com/static/logo.png",
+        "contact_email": "support@example.com",
+        "legal_info_url": "https://your-domain.onrender.com/legal"
+    }
+
